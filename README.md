@@ -16,4 +16,4 @@ US phone numbers are organized as (XXX)-YYY-ZZZZ, where XXX is the area code, YY
 (212)-9981-212<br/>
 </i>
 each returns:<br/>
-![Fitz](Images/1.PNG)
+(Images/1.PNG)
