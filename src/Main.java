@@ -2,8 +2,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main {
+	// This function tries to parse input string into a correctly formatted US phone number
 	public static String extractNumberFormat(String input) {
-		String USPhonePat = "\\s*(?:\\(\\s*(\\d{3})\\s*\\)|(\\d{3}))\\s*\\-?\\s*(\\d{3})\\s*\\-?\\s*(\\d{4})\\s*"; 
+		String USPhonePat = 
+			"\\s*(?:\\(\\s*(\\d{3})\\s*\\)|(\\d{3}))\\s*\\-?\\s*(\\d{3})\\s*\\-?\\s*(\\d{4})\\s*"; 
 		
 		if (!input.matches(USPhonePat))
 			return "Not Valid US Phone";
@@ -12,6 +14,7 @@ public class Main {
 		return "(" + (input.indexOf('(') >=0 ? m.group(1) : m.group(2)) + ")-" + m.group(3) + "-" + m.group(4);
 	}
 	
+	// Sample Inputs
 	public static void main(String[] args) {
 		// Case 1: Match, with area code in parenthesis
 		String NYU = "(212)  -998  1212";
