@@ -19,5 +19,4 @@
 Not Valid US Phone<br/>
 Not Valid US Phone<br/>
 Not Valid US Phone<br/>
-Not Valid US Phone<br/>
 </i></b></p>
