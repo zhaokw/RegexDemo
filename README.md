@@ -1,4 +1,4 @@
-#Regex Demo
+# Regex Demo
 <p><i>By Kevin Zhao</i></p>
 # What it does:
 <p>US phone numbers are organized as <b>(XXX)-YYY-ZZZZ</b>, where <b>XXX</b> is the area code, <b>YYY</b> and <b>ZZZZ</b> are your main number bodies.</p>
